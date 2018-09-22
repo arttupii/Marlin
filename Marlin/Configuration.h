@@ -130,7 +130,7 @@
 
 // The following define selects which electronics board you have.
 // Please choose the name from boards.h that matches your setup
-#define MOTHERBOARD BOARD_ULTIMAKER
+#define MOTHERBOARD BOARD_GT2560_REV_A_PLUS
 
 #ifndef MOTHERBOARD
   #define MOTHERBOARD BOARD_RAMPS_14_EFB
@@ -151,7 +151,7 @@
 #define EXTRUDERS 1
 
 // Generally expected filament diameter (1.75, 2.85, 3.0, ...). Used for Volumetric, Filament Width Sensor, etc.
-#define DEFAULT_NOMINAL_FILAMENT_DIA 3.0
+#define DEFAULT_NOMINAL_FILAMENT_DIA 1.75
 
 // For Cyclops or any "multi-extruder" that shares a single nozzle.
 //#define SINGLENOZZLE
